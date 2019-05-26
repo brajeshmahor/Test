@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC573A7A-E18C-4C77-AD5A-2D8203629802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FAECB1A9-4A02-4A36-B104-99792817057C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{3077D36C-24F2-4E61-A3C0-E53E1E1B3641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Logging.API", "Service.Logging.API\Service.Logging.API.csproj", "{BF1DD1DD-7E4F-4D4E-A8DB-67BB6304E163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF1DD1DD-7E4F-4D4E-A8DB-67BB6304E163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1DD1DD-7E4F-4D4E-A8DB-67BB6304E163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF1DD1DD-7E4F-4D4E-A8DB-67BB6304E163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1DD1DD-7E4F-4D4E-A8DB-67BB6304E163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAECB1A9-4A02-4A36-B104-99792817057C} = {BC573A7A-E18C-4C77-AD5A-2D8203629802}
+		{3077D36C-24F2-4E61-A3C0-E53E1E1B3641} = {FAECB1A9-4A02-4A36-B104-99792817057C}
+		{BF1DD1DD-7E4F-4D4E-A8DB-67BB6304E163} = {3077D36C-24F2-4E61-A3C0-E53E1E1B3641}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F346005-44F0-4188-809D-E0F6E56073B2}
+	EndGlobalSection
+EndGlobal
